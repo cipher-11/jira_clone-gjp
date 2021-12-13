@@ -1,0 +1,219 @@
+* {
+    font-family: sans-serif;
+}
+
+body,
+html {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
+
+header {
+    height: 70px;
+    width: auto;
+    padding: 0px 40px;
+    display: flex;
+    background-color: rgb(115, 196, 120);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+header .my-jira-clone {
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+header .cross {
+    height: 30%;
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: x-large;
+}
+
+header .cross:hover {
+    background-color: red;
+    color: white;
+}
+
+.container {
+    width: auto;
+    height: 450px;
+    background-color: rgba(37 211 102);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.box {
+    height: 45%;
+    width: 25%;
+    /* background-color: darkgray; */
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1.5rem;
+}
+
+.box .header {
+    height: 20%;
+    width: auto;
+    background-color: rgba(18 140 126);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    font-size: x-large;
+}
+
+.toggle {
+    height: 70%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.minus {
+    height: 60%;
+    width: 20%;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.mini {
+    height: 60%;
+    width: 20%;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.shut {
+    height: 60%;
+    width: 20%;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.box .main {
+    height: 70%;
+    width: auto;
+    background-color: rgb(7 94 84);
+}
+
+.dialog-box {
+    height: 50%;
+    width: 30%;
+    background-color: darkgray;
+    position: absolute;
+    right: 35%;
+    bottom: 25%;
+    display: none;
+    flex-direction: column;
+}
+
+.dialog-box .header {
+    height: 15%;
+    width: auto;
+    background-color: rgba(18 140 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-box .main1 {
+    height: 15%;
+    width: auto;
+    background-color: rgb(7 94 84);
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.dialog-box .main2 {
+    height: 50%;
+    width: auto;
+    background-color: rgb(7 94 84);
+    padding: 7px;
+}
+
+.dialog-box .txtarea {
+    font-size: large;
+    resize: none;
+}
+
+.dialog-box .bottom {
+    height: 15%;
+    width: auto;
+    background-color: rgba(18 140 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom .btn {
+    height: 70%;
+    width: 30%;
+}
+
+.dialog-box .cross {
+    height: 10%;
+    width: 6%;
+    position: absolute;
+    /* background-color: red; */
+    top: -8px;
+    right: -10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.dialog-box .cross:hover {
+    background-color: red;
+    color: white;
+}
+
+.list-box {
+    height: 50%;
+    width: 5%;
+    position: absolute;
+    /* background-color: black; */
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.light {
+    height: 20%;
+    width: 80%;
+    background-color: aqua;
+    border-radius: 50%;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-box #light1 {
+    background-color: red;
+}
+
+.list-box #light2 {
+    background-color: orange;
+}
+
+.list-box #light3 {
+    background-color: green;
+}
+
+.list-box #light4 {
+    background-color: white;
+}

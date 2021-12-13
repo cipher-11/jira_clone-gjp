@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Jira Clone</title>
+    <style>
+        input {
+            width: 98%;
+        }
+    </style>
+    <link rel="stylesheet" href="jira_clone.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="my-jira-clone">My Jira Clone</div>
+        <div class="cross"><i class="fas fa-times"></i></div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box"></div>
+            <div class="dialog-box">
+                <div class="header">
+                    <h4>Add New Ticket</h4>
+                </div>
+                <div class="main1">
+                    <input type="text" class="txtarea" />
+                </div>
+                <div class="main2">
+                    <textarea class="txtarea" rows="6" cols="38" spellcheck="false"></textarea>
+                </div>
+                <div class="bottom">
+                    <button class="btn"><strong>Add Ticket</strong></button>
+                </div>
+                <div class="cross"><i class="fas fa-times"></i></div>
+            </div>
+            <div class="list-box">
+                <div class="light" id="light1"></div>
+                <div class="light" id="light2"></div>
+                <div class="light" id="light3"></div>
+                <div class="light" id="light4">
+                    <span class="fas fa-power-off"> </span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="jira_clone.js"></script>
+
+</html>
