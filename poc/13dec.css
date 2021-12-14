@@ -1,0 +1,75 @@
+html,
+body {
+    height: auto;
+    width: auto;
+    background-color: rgb(118, 172, 97);
+}
+
+header {
+    height: 7rem;
+    width: 40rem;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 24.3vw;
+}
+
+.btn {
+    height: 70%;
+    width: 15%;
+    border-radius: 20px;
+}
+
+.reset {
+    height: 70%;
+    width: 13%;
+    border-radius: 50%;
+    font-size: 4.2rem;
+}
+
+#btn1 {
+    background-color: red;
+}
+
+#btn2 {
+    background-color: teal;
+}
+
+#btn3 {
+    background-color: green;
+}
+
+#btn4 {
+    background-color: yellow;
+}
+
+#btn5 {
+    background-color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin-top: 1px;
+    height: 30rem;
+    width: 40rem;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    margin: 2px;
+    height: 10%;
+    width: 3rem;
+    background-color: lightsalmon;
+    border-radius: 50%;
+}
